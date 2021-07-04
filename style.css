@@ -1,6 +1,7 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
     margin: 0;
+    
 }
 h1{
     font-size: 50px;
@@ -10,14 +11,16 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
     width: 60%;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-top: 5%;
 }
 .link-button{
@@ -31,4 +34,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.mid-image{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
